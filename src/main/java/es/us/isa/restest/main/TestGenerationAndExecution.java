@@ -38,8 +38,8 @@ import static es.us.isa.restest.util.Timer.TestStep.ALL;
 public class TestGenerationAndExecution {
 
 	// Properties file with configuration settings
-	private static String propertiesFilePath = "src/test/resources/Folder/api.properties";
-
+//	private static String propertiesFilePath = "src/test/resources/Folder/api.properties";
+	private static String propertiesFilePath = "src/test/resources/Restcountries/restcountries_demo.properties";
 	private static List<String> argsList;								// List containing args
 	
 	private static Integer numTestCases; 								// Number of test cases per operation
